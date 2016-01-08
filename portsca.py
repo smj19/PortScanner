@@ -39,6 +39,8 @@ stdout,stderr = nmap.communicate()
 
 if stderr:
   verboseprint("Error:", stderr)
+else:
+  pass
 
 with open('scanme.xml','rt') as f:
   tree = ET.parse(f)
