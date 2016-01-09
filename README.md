@@ -24,14 +24,14 @@ sudo apt-get install nmap
 
 ``` 
 usage: Checks for active ports on the given host
-        [-h] [--allports] [--range] host
+        [-h] [--all] [--range] host
  
  positional arguments:
    host            The IP address of the host
    
  optional arguments:
    -h, --help      show this help message and exit
-   --all      Scan all 65536 ports
+   --all           Scan all 65536 ports
    --range         Specify the range of ports in the format start-end
  ```
  
