@@ -24,7 +24,7 @@ if args.all:
   verboseprint("Please wait.. Fetching results")
 
 elif args.range:
-  range  = raw_input("Please specify the range of ports you want to scan in the format start-end inclusive: ")
+  range  = raw_input("Please specify the range of ports in the format start-end inclusive: ")
   verboseprint("Scanning the ports in the range specified...")
   nmap = subprocess.Popen(['nmap', '-sS','-p', range, '-oX','scanme.xml', args.host], stdout=subprocess.PIPE)
   verboseprint("Please wait... Fetching results")
