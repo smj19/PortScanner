@@ -59,7 +59,7 @@ There are no active ports on the specified host IP address
 #### Example output 3) By specifying the argument "--all" in the command line, all 65535 ports will be scanned(Note: Time-consuming)
 ```
 root@ubuntu:/home/ubuntu/port# python portsca.py --all 108.214.113.79
-Scanning all 65536 ports... Please note, it is takes a long time to scan all 65536 ports
+Scanning all 65536 ports... Please note, it takes a long time to scan all 65536 ports
 Please wait.. Fetching results
 
 ```
