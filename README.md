@@ -35,7 +35,7 @@ usage: Checks for active ports on the given host
    --range         Specify the range of ports in the format start-end
  ```
  
- #### Example output 1) By default the most popular 1000 ports are scanned
+#### Example output 1) By default the most popular 1000 ports are scanned
  
  ```
 root@ubuntu:/home/ubuntu/port# python portscan.py 8.8.8.8
@@ -47,7 +47,7 @@ Port	PortID
 tcp 	53
 
  ```
- #### Example output 2) By specifying the argument "--range" in the command line, the port between the range specified will be scanned
+#### Example output 2) By specifying the argument "--range" in the command line, the port between the range specified will be scanned
  ```
 root@ubuntu:/home/ubuntu/port# python portscan.py --range 108.214.113.79
 Please specify the range of ports you want to scan in the format start-end inclusive: 0-2000
