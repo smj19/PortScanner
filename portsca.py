@@ -19,7 +19,7 @@ def verboseprint(*args):
 
 
 if args.all:
-  verboseprint("Scanning all 65536 ports... Please note, it is takes a long time to scan all 65536 ports")
+  verboseprint("Scanning all 65536 ports... Please note, it takes a long time to scan all 65536 ports")
   nmap = subprocess.Popen(['nmap', '-sS','-p 0-65535', '-oX','scanme.xml', args.host], stdout=subprocess.PIPE)
   verboseprint("Please wait.. Fetching results")
 
