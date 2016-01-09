@@ -31,7 +31,7 @@ usage: Checks for active ports on the given host
    
  optional arguments:
    -h, --help      show this help message and exit
-   --allports      Scan all 65536 ports
+   --all      Scan all 65536 ports
    --range         Specify the range of ports in the format start-end
  ```
  
